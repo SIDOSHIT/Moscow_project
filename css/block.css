@@ -1,0 +1,30 @@
+.block {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: black;
+}
+
+.block__h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik;
+    font-size: 40px;
+    color: white;
+}
+
+.block__button__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    margin-right: 10px;
+}

@@ -1,0 +1,208 @@
+        /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+        
+        html,
+        body,
+        p,
+        ol,
+        ul,
+        li,
+        dl,
+        dt,
+        dd,
+        blockquote,
+        figure,
+        fieldset,
+        legend,
+        textarea,
+        pre,
+        iframe,
+        hr,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+            padding: 0
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: 100%;
+            font-weight: normal
+        }
+        
+        ul {
+            list-style: none
+        }
+        
+        button,
+        input,
+        select {
+            margin: 0
+        }
+        
+        html {
+            box-sizing: border-box
+        }
+        
+        *,
+        *::before,
+        *::after {
+            box-sizing: inherit
+        }
+        
+        img,
+        video {
+            height: auto;
+            max-width: 100%
+        }
+        
+        iframe {
+            border: 0
+        }
+        
+        table {
+            border-collapse: collapse;
+            border-spacing: 0
+        }
+        
+        td,
+        th {
+            padding: 0
+        }
+        
+        @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+         :root {
+            --backgroundColor: #303741;
+            --lightGrey: #F5F5F5;
+            --lightBlue: #56CEF4;
+            --buttoncolor: #f15b4a;
+            --buttontransition: #fc9403;
+            --headerFont: Lato'Lato', sans-serif;
+            --textFont: 'Roboto', sans-serif;
+        }
+        
+        header {
+            background-color: var(--backgroundColor);
+            color: white;
+            display: flex;
+            height: 60px;
+            align-items: center;
+        }
+        
+        .logo {
+            background-image: url("../img/logo.png");
+            background-size: contain;
+            height: 30px;
+            width: 30px;
+            background-repeat: no-repeat;
+            margin-left: 50px;
+        }
+        
+        header nav {
+            display: flex;
+            width: 300px;
+            justify-content: space-around;
+        }
+        
+        header a {
+            color: var(--lightGrey);
+            text-decoration: none;
+            font-size: 20px;
+            font-family: var (--headerFont);
+        }
+        
+        header a:hover {
+            color: tomato;
+            transition: all 0.3s;
+        }
+        
+        .promo_wrapper {
+            display: flex;
+            justify-content: center;
+            background-size: cover;
+            background-image: url('../img/main.jpg');
+            height: 1000px;
+        }
+        
+        .promo_content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .promo_h3 {
+            font-size: 70px;
+            color: var(--lightGrey);
+            font-family: var(--headerFont);
+        }
+        
+        .promo__button {
+            font-family: "Rubik";
+            background: var(--buttoncolor);
+            font-family: var(--textFont);
+            padding: 15px;
+            font-size: 27px;
+            color: var(--lightGrey);
+            width: 250px;
+            height: 70px;
+            box-shadow: 2px 2px 2px black;
+            border: 2px solid black;
+            border-radius: 5%;
+            margin: 10px;
+        }
+        
+        .promo__button:hover {
+            cursor: pointer;
+            transition: all 1s;
+            width: 500px;
+            height: 200px;
+            font-size: 40px;
+            color: var(--lightGrey);
+            background-color: var(--buttontransition);
+            box-shadow: 5px 5px 20px black;
+        }
+        
+        .heading {
+            display: flex;
+            justify-content: center;
+            background-color: var(--backgroundColor);
+            color: var(--lightGrey);
+            font-family: var(--headerFont);
+            font-size: 36px;
+        }
+        
+        main {
+            display: flex;
+            padding: 50px;
+            font-family: var(--headerFont);
+            font-size: 20px;
+            border: 4px solid black;
+            background-color: var(--lightGrey);
+        }
+        
+        footer {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            background-color: var(--backgroundColor);
+            color: var(--lightGrey);
+            padding: 50px;
+            font-family: var(--textFont);
+        }
+        
+        .height {
+            font-size: 50px;
+            color: lightsalmon;
+        }
+        
+        .p1 {
+            color: lightsalmon;
+        }

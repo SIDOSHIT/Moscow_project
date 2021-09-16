@@ -1,0 +1,18 @@
+.location {}
+
+.location__component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    font-family: var(--textFont);
+    font-size: 36px;
+}
+
+.location__img {
+    background-image: url('../img/moscow.svg');
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+}

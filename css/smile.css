@@ -1,0 +1,15 @@
+.smile_wrapper {
+    border: 4px solid black;
+}
+
+.smile_position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+}
+
+.smile__span {
+    font-size: 40px;
+}
